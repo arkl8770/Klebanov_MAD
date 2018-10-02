@@ -45,6 +45,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
             cTillBol = 100 - tempC
             fTillF = tempF - 32
             fTillBol = 212 - tempF
+            if tempC < 0 {
+                let alert = UIAlertController(title: "Warning!", message: "That temperature is below freezing! Stay warm!", preferredStyle: UIAlertControllerStyle.alert)
+                let okAction = UIAlertAction(title: "Okay!", style: UIAlertActionStyle.default, handler: nil)
+                alert.addAction(okAction)
+                present(alert, animated: true, completion: nil)
+            }
+            if tempC > 100 {
+                let alert = UIAlertController(title: "Warning!", message: "That temperature is above boiling! Cool down!", preferredStyle: UIAlertControllerStyle.alert)
+                let okAction = UIAlertAction(title: "Okay!", style: UIAlertActionStyle.default, handler: nil)
+                alert.addAction(okAction)
+                present(alert, animated: true, completion: nil)
+            }
             factLabel.text! = "Fun Facts!"
             cTillFreeze.text! = "\(cTillF) °C until freezing"
             fTillFreeze.text! = "\(fTillF) °F until freezing"
@@ -62,6 +74,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
             cTillBol = 100 - tempC
             fTillF = tempF - 32
             fTillBol = 212 - tempF
+            if tempF < 32 {
+                let alert = UIAlertController(title: "Warning!", message: "That temperature is below freezing! Stay warm!", preferredStyle: UIAlertControllerStyle.alert)
+                let okAction = UIAlertAction(title: "Okay!", style: UIAlertActionStyle.default, handler: nil)
+                alert.addAction(okAction)
+                present(alert, animated: true, completion: nil)
+            }
+            if tempF > 212 {
+                let alert = UIAlertController(title: "Warning!", message: "That temperature is above boiling! Cool down!", preferredStyle: UIAlertControllerStyle.alert)
+                let okAction = UIAlertAction(title: "Okay!", style: UIAlertActionStyle.default, handler: nil)
+                alert.addAction(okAction)
+                present(alert, animated: true, completion: nil)
+            }
             factLabel.text! = "Fun Facts!"
             cTillFreeze.text! = "\(cTillF) °C until freezing"
             fTillFreeze.text! = "\(fTillF) °F until freezing"
