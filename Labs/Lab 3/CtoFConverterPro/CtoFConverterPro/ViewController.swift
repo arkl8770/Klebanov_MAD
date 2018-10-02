@@ -18,7 +18,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var fTillBoil: UILabel!
     @IBOutlet weak var kelvin: UILabel!
     @IBOutlet weak var factLabel: UILabel!
-    
+
+    @IBAction func onTapRecognizer(_ sender: UITapGestureRecognizer) {
+        celsiusField.resignFirstResponder()
+        fahrenheitField.resignFirstResponder()
+    }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true;
