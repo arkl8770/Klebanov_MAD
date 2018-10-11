@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		678F8B93216E7A1F0075476F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678F8B92216E7A1F0075476F /* AppDelegate.swift */; };
+		678F8B95216E7A1F0075476F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678F8B94216E7A1F0075476F /* ViewController.swift */; };
+		678F8B98216E7A1F0075476F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678F8B96216E7A1F0075476F /* Main.storyboard */; };
+		678F8B9A216E7A230075476F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678F8B99216E7A230075476F /* Assets.xcassets */; };
+		678F8B9D216E7A230075476F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678F8B9B216E7A230075476F /* LaunchScreen.storyboard */; };
+		678F8BA5216E859A0075476F /* LostItemTrackerPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678F8BA4216E859A0075476F /* LostItemTrackerPro.swift */; };
+		678F8BA7216E8A810075476F /* Scene2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678F8BA6216E8A810075476F /* Scene2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		678F8B8F216E7A1F0075476F /* Lost Item Tracker Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lost Item Tracker Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		678F8B92216E7A1F0075476F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		678F8B94216E7A1F0075476F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		678F8B97216E7A1F0075476F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		678F8B99216E7A230075476F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		678F8B9C216E7A230075476F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		678F8B9E216E7A230075476F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678F8BA4216E859A0075476F /* LostItemTrackerPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostItemTrackerPro.swift; sourceTree = "<group>"; };
+		678F8BA6216E8A810075476F /* Scene2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		678F8B8C216E7A1F0075476F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		678F8B86216E7A1F0075476F = {
+			isa = PBXGroup;
+			children = (
+				678F8B91216E7A1F0075476F /* Lost Item Tracker Pro */,
+				678F8B90216E7A1F0075476F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		678F8B90216E7A1F0075476F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				678F8B8F216E7A1F0075476F /* Lost Item Tracker Pro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		678F8B91216E7A1F0075476F /* Lost Item Tracker Pro */ = {
+			isa = PBXGroup;
+			children = (
+				678F8B92216E7A1F0075476F /* AppDelegate.swift */,
+				678F8B94216E7A1F0075476F /* ViewController.swift */,
+				678F8BA6216E8A810075476F /* Scene2ViewController.swift */,
+				678F8B96216E7A1F0075476F /* Main.storyboard */,
+				678F8BA4216E859A0075476F /* LostItemTrackerPro.swift */,
+				678F8B99216E7A230075476F /* Assets.xcassets */,
+				678F8B9B216E7A230075476F /* LaunchScreen.storyboard */,
+				678F8B9E216E7A230075476F /* Info.plist */,
+			);
+			path = "Lost Item Tracker Pro";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		678F8B8E216E7A1F0075476F /* Lost Item Tracker Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678F8BA1216E7A230075476F /* Build configuration list for PBXNativeTarget "Lost Item Tracker Pro" */;
+			buildPhases = (
+				678F8B8B216E7A1F0075476F /* Sources */,
+				678F8B8C216E7A1F0075476F /* Frameworks */,
+				678F8B8D216E7A1F0075476F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lost Item Tracker Pro";
+			productName = "Lost Item Tracker Pro";
+			productReference = 678F8B8F216E7A1F0075476F /* Lost Item Tracker Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		678F8B87216E7A1F0075476F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ari Klebanov";
+				TargetAttributes = {
+					678F8B8E216E7A1F0075476F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 678F8B8A216E7A1F0075476F /* Build configuration list for PBXProject "Lost Item Tracker Pro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678F8B86216E7A1F0075476F;
+			productRefGroup = 678F8B90216E7A1F0075476F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678F8B8E216E7A1F0075476F /* Lost Item Tracker Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		678F8B8D216E7A1F0075476F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678F8B9D216E7A230075476F /* LaunchScreen.storyboard in Resources */,
+				678F8B9A216E7A230075476F /* Assets.xcassets in Resources */,
+				678F8B98216E7A1F0075476F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		678F8B8B216E7A1F0075476F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678F8BA7216E8A810075476F /* Scene2ViewController.swift in Sources */,
+				678F8B95216E7A1F0075476F /* ViewController.swift in Sources */,
+				678F8B93216E7A1F0075476F /* AppDelegate.swift in Sources */,
+				678F8BA5216E859A0075476F /* LostItemTrackerPro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		678F8B96216E7A1F0075476F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678F8B97216E7A1F0075476F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		678F8B9B216E7A230075476F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678F8B9C216E7A230075476F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		678F8B9F216E7A230075476F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		678F8BA0216E7A230075476F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		678F8BA2216E7A230075476F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BA6D5CY5N;
+				INFOPLIST_FILE = "Lost Item Tracker Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ATLAS-4120.Lost-Item-Tracker-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		678F8BA3216E7A230075476F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BA6D5CY5N;
+				INFOPLIST_FILE = "Lost Item Tracker Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ATLAS-4120.Lost-Item-Tracker-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678F8B8A216E7A1F0075476F /* Build configuration list for PBXProject "Lost Item Tracker Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678F8B9F216E7A230075476F /* Debug */,
+				678F8BA0216E7A230075476F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678F8BA1216E7A230075476F /* Build configuration list for PBXNativeTarget "Lost Item Tracker Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678F8BA2216E7A230075476F /* Debug */,
+				678F8BA3216E7A230075476F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678F8B87216E7A1F0075476F /* Project object */;
+}
