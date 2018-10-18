@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Midterm_Workout_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Midterm - Workout App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUy-Fc-bp7">
+                                <rect key="frame" x="48.5" y="25" width="223" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="If6-v2-Xch">
+                                <rect key="frame" x="16" y="61.5" width="288" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nS-NX-YrV">
+                                        <rect key="frame" x="0.0" y="0.0" width="102.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="minutes" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oal-On-i85">
+                                        <rect key="frame" x="202.5" y="0.0" width="85.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="spA-fl-dF7">
+                                <rect key="frame" x="16" y="101.5" width="288" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show weekly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fz-GW-BmK">
+                                        <rect key="frame" x="0.0" y="0.0" width="239" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ufa-Bs-i6L">
+                                        <rect key="frame" x="239" y="0.0" width="51" height="31"/>
+                                    </switch>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="jIC-Ol-h1S">
+                                <rect key="frame" x="16" y="132.5" width="288" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workouts/week" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWF-Pd-Zk5">
+                                        <rect key="frame" x="0.0" y="0.0" width="118" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="1" maxValue="7" translatesAutoresizingMaskIntoConstraints="NO" id="rcd-Me-cSD">
+                                        <rect key="frame" x="216" y="0.0" width="74" height="31"/>
+                                        <connections>
+                                            <action selector="perWeekSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="QU9-71-fhk"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                            </stackView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="g4j-eR-MGm">
+                                <rect key="frame" x="16" y="172.5" width="288" height="29"/>
+                                <segments>
+                                    <segment title="Run"/>
+                                    <segment title="Swim"/>
+                                    <segment title="Bike"/>
+                                </segments>
+                                <connections>
+                                    <action selector="runSwimBikeSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="OtO-Eb-MDE"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2d-Nf-T9R">
+                                <rect key="frame" x="16" y="210.5" width="288" height="30"/>
+                                <state key="normal" title="Workout"/>
+                                <connections>
+                                    <action selector="workoutButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PYG-ed-OYR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="miles ran" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J65-CJ-TNe">
+                                <rect key="frame" x="16" y="250.5" width="288" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="calories burned" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5i-mk-kWi">
+                                <rect key="frame" x="16" y="281" width="288" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3FN-Zf-8v7">
+                                <rect key="frame" x="60" y="311.5" width="200" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="EvR-ox-s2c"/>
+                                    <constraint firstAttribute="height" constant="128" id="SFO-Rz-tMe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="jIC-Ol-h1S" firstAttribute="top" secondItem="spA-fl-dF7" secondAttribute="bottom" id="0d7-mP-JzJ"/>
+                            <constraint firstItem="If6-v2-Xch" firstAttribute="top" secondItem="RUy-Fc-bp7" secondAttribute="bottom" constant="10" id="1yj-rK-5eV"/>
+                            <constraint firstItem="J65-CJ-TNe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3PU-Xk-zlo"/>
+                            <constraint firstItem="3FN-Zf-8v7" firstAttribute="top" secondItem="d5i-mk-kWi" secondAttribute="bottom" constant="10" id="782-Ke-yLS"/>
+                            <constraint firstItem="If6-v2-Xch" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="79A-vM-b2R"/>
+                            <constraint firstItem="d5i-mk-kWi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9ai-X8-C8V"/>
+                            <constraint firstItem="f2d-Nf-T9R" firstAttribute="top" secondItem="g4j-eR-MGm" secondAttribute="bottom" constant="10" id="BgT-hd-ckA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="If6-v2-Xch" secondAttribute="trailing" constant="16" id="BwD-Or-qcq"/>
+                            <constraint firstItem="spA-fl-dF7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DoL-we-aVY"/>
+                            <constraint firstItem="g4j-eR-MGm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="HxQ-j9-MEy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jIC-Ol-h1S" secondAttribute="trailing" constant="16" id="MgM-pK-nao"/>
+                            <constraint firstItem="spA-fl-dF7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NUh-3q-b7P"/>
+                            <constraint firstItem="spA-fl-dF7" firstAttribute="top" secondItem="If6-v2-Xch" secondAttribute="bottom" constant="10" id="Nmr-kf-jln"/>
+                            <constraint firstItem="jIC-Ol-h1S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="OJe-zb-3b1"/>
+                            <constraint firstItem="RUy-Fc-bp7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="UH4-WJ-twb"/>
+                            <constraint firstItem="d5i-mk-kWi" firstAttribute="top" secondItem="J65-CJ-TNe" secondAttribute="bottom" constant="10" id="XkV-Ds-guG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J65-CJ-TNe" secondAttribute="trailing" constant="16" id="aJ6-ri-8IQ"/>
+                            <constraint firstItem="jIC-Ol-h1S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bP6-jG-Wya"/>
+                            <constraint firstItem="If6-v2-Xch" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eax-Ry-PaG"/>
+                            <constraint firstItem="f2d-Nf-T9R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fYn-DH-YF3"/>
+                            <constraint firstItem="g4j-eR-MGm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gpb-EL-JNl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g4j-eR-MGm" secondAttribute="trailing" constant="16" id="hBw-6k-MdQ"/>
+                            <constraint firstItem="RUy-Fc-bp7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kqY-a0-K4H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d5i-mk-kWi" secondAttribute="trailing" constant="16" id="lUD-wN-J9C"/>
+                            <constraint firstItem="J65-CJ-TNe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nfC-Go-JJP"/>
+                            <constraint firstItem="g4j-eR-MGm" firstAttribute="top" secondItem="jIC-Ol-h1S" secondAttribute="bottom" constant="10" id="ohQ-gi-Blv"/>
+                            <constraint firstItem="d5i-mk-kWi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="pWh-lh-nRJ"/>
+                            <constraint firstItem="J65-CJ-TNe" firstAttribute="top" secondItem="f2d-Nf-T9R" secondAttribute="bottom" constant="10" id="qU0-7Q-tFO"/>
+                            <constraint firstItem="f2d-Nf-T9R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rtH-8H-vzc"/>
+                            <constraint firstItem="3FN-Zf-8v7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xMg-IA-zYa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f2d-Nf-T9R" secondAttribute="trailing" constant="16" id="yTp-TT-gGK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="spA-fl-dF7" secondAttribute="trailing" constant="16" id="zdK-Vo-TLj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="xTR-dN-uEi" appends="YES" id="kRQ-Wm-vnd"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="caloriesLabel" destination="d5i-mk-kWi" id="Qs8-d0-JpK"/>
+                        <outlet property="imageView" destination="3FN-Zf-8v7" id="BIJ-fJ-ZPA"/>
+                        <outlet property="milesLabel" destination="J65-CJ-TNe" id="bf5-Iq-UGe"/>
+                        <outlet property="perWeekSlider" destination="rcd-Me-cSD" id="r2T-r2-MYi"/>
+                        <outlet property="runSwimBikeSegmentedControl" destination="g4j-eR-MGm" id="2Me-z1-Wzv"/>
+                        <outlet property="weeklySwitch" destination="Ufa-Bs-i6L" id="KDQ-Ai-UBv"/>
+                        <outlet property="workoutTimeField" destination="Oal-On-i85" id="hTC-iC-bfx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="xTR-dN-uEi">
+                    <connections>
+                        <action selector="onTapRecognizer:" destination="BYZ-38-t0r" id="Ah0-b2-WGt"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
