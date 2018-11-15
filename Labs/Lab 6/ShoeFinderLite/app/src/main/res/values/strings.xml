@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Shoe Finder Lite</string>
+    <string name="styleText">Style</string>
+    <string name="upgradeText">Upgrade?</string>
+    <string name="colorText">Favorite Colors?</string>
+    <string name="budgetText">Budget</string>
+    <string name="upgradeToggleOff">Classic</string>
+    <string name="upgradeToggleOn">Pro</string>
+    <string name="budgetRadio1">$</string>
+    <string name="budgetRadio2">$$$</string>
+    <string name="contentDescription">img of recommended shoe</string>
+    <string name="goText">Go!</string>
+    <string-array name="styleArray">
+        <item>Sk8-Hi</item>
+        <item>Old Skool</item>
+        <item>Authentic</item>
+        <item>Classic Slip-On</item>
+    </string-array>
+</resources>
