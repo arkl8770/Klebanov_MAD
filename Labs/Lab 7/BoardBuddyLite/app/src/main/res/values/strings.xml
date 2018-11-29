@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Board Buddy Lite</string>
+    <string name="titleText">Which longboard is right for you?</string>
+    <string name="styleText">Style:</string>
+    <string name="heightText">Height:</string>
+    <string name="findText">Find</string>
+    <string name="imgText">an img of a kid longboarding</string>
+    <string name="resultImgText">an img of the recommended longboard</string>
+    <string name="suggestedText">This is your suggested longboard</string>
+    <string-array name="styleArray">
+        <item>Cruiser</item>
+        <item>Downhill</item>
+    </string-array>
+    <string-array name="heightArray">
+        <item>High off the ground</item>
+        <item>Low to the ground</item>
+    </string-array>
+</resources>
