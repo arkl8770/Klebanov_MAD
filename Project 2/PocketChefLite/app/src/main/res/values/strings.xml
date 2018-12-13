@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pocket Chef Lite</string>
+    <string name="ingredientsText">Your ingredients</string>
+    <string name="recipeText">Your recipes</string>
+    <string name="recipeIngredientsText">Ingredients</string>
+    <string name="recipeRecipeText">Recipe</string>
+    <string-array name="ingredientList">
+        <item> </item>
+        <item>Cheddar Cheese</item>
+        <item>Chicken Breast</item>
+        <item>Tortillas</item>
+        <item>Eggs</item>
+        <item>Salsa</item>
+        <item>Marinara Sauce</item>
+        <item>Ranch</item>
+        <item>Bread</item>
+        <item>Macaroni</item>
+        <item>Peanut Butter</item>
+        <item>Jelly</item>
+    </string-array>
+</resources>
