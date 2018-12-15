@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mobile App Development Final</string>
+    <string name="headingText">Pizza Builder Lite</string>
+    <string name="sauceText">Sauce (White or Red):</string>
+    <string name="sizeText">Size:</string>
+    <string name="crustText">Crust:</string>
+    <string name="thinText">Thin</string>
+    <string name="thickText">Thick</string>
+    <string name="glutenFreeText">Gluten:</string>
+    <string name="pizzaButton">Pizza</string>
+    <string name="pizzaText">Favorite Pizza Text</string>
+    <string name="findPizza">Find Pizza</string>
+    <string name="imgDescription">img</string>
+    <string name="sauceToggleOn">White</string>
+    <string name="sauceToggleOff">Red</string>
+    <string-array name="sizeArray">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+</resources>
